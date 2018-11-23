@@ -14,7 +14,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home () {
-		return "Who are you!?";
+		return "Who the **** are you!?";
 	}
 
 
