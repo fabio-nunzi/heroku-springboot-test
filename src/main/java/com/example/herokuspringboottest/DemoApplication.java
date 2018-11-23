@@ -14,7 +14,9 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home () {
-		return "Hello almost everybody...";
+
+		return "Hello almost everybody... who are you?";
+
 	}
 
 
