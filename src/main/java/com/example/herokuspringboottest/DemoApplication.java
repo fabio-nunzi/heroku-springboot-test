@@ -15,7 +15,7 @@ public class DemoApplication {
 	@ResponseBody
 	String home () {
 
-		return "Hello almost everybody... who are you?";
+		return "Now we got postgres... maybe..";
 
 	}
 
