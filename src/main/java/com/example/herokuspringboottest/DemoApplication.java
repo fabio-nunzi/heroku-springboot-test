@@ -33,7 +33,7 @@ public class DemoApplication {
 
 	}
 
-	@GetMapping("/hello-world")
+	@GetMapping("/getJson")
     @ResponseBody
     public Response sayHello(@RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
         return new Response(counter.incrementAndGet(), name);
