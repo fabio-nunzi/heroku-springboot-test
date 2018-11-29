@@ -19,6 +19,13 @@ public class DemoApplication {
 
 	}
 
+	@RequestMapping("/secret")
+	@ResponseBody
+	String secret () {
+
+		return "You found it!";
+
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
