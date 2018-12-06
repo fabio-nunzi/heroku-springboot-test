@@ -21,7 +21,7 @@ public class DemoApplication {
 	@ResponseBody
 	String home () {
 
-		return "Now we got postgres... maybe..";
+		return "Welcome!";
 
 	}
 
@@ -33,7 +33,7 @@ public class DemoApplication {
 
 	}
 
-	@GetMapping("/getJson")
+	@GetMapping("/getJson2")
     @ResponseBody
     public Response sayHello(@RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
         return new Response(counter.incrementAndGet(), name);
